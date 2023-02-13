@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Forte</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://m.bingoliner.com/mv2/login<datalist></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>//*[@class='MuiButton-label button-label']<datalist><option>//*[@class='MuiButton-label button-label']</option></datalist></td><td></td></tr>
+<tr><td>storeEval</td><td>new Date().getTime()<datalist></datalist></td><td>RandomValue</td></tr>
+<tr><td>type</td><td>//*[@field='loginName']<datalist><option>tester${UserName}</option><option>//*[@field='loginName']</option></datalist></td><td>tester${RandomValue}</td></tr>
+<tr><td>click</td><td>//*[@class='MuiButton-label button-label']<datalist><option>//*[@class='MuiButton-label'] </option><option>//*[@class='MuiButton-label']</option><option>//*[@class='MuiButton-label button-label']</option></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>//*[text()='Required']<datalist><option>//*[text()='Required']</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>//*[@field='password']<datalist><option>//*[@field='password']</option></datalist></td><td>${RandomValue}</td></tr>
+<tr><td>click</td><td>//*[@class='MuiButton-label button-label']<datalist><option>//*[@class='MuiButton-label button-label']</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>//*[@class='MuiButton-label']<datalist><option>click</option><option>//*[@class='MuiButton-label']</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

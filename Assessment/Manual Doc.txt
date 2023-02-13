@@ -1,0 +1,147 @@
+
+Q1. What are some of the goals/fundamentals when testing software?
+
+The goal for testing is to ensure that users/clients are presented with a functional and high quality application. 
+So as part of ensuring the delivery of a quality product/application, testers make it their highest priority 
+to find any visible(UI) or hidden defects(backend testing) in order to make sure that the end results 
+meet the business and user requirements. The goal for testing is to also ensure that the product satisfies the 
+Business Requirement Specification and the System Requiremnt specifications. Testing is also conducted 
+to ensure that the product performs at an optimum level and it safe to use. 
+
+
+Q2. Explain what the Software Testing Life cycle is and list the different phrases within a project.
+
+Software testing lifecycle is a sequence of different phases that a testing team executes to ensure the quality of an application. 
+The different phases are namely the Requirement Analysis phese, Test Planning, Test Case Development, Test Environment Setup, Test 
+Execution and Test Cycle Closure. 
+The Requirement Analysis phase is when the testing team discusses and identifies the type of testing to perfomed. The team also looks into 
+test environment details which they will be using at the Environment Setup phase. 
+At the Tests planning phase, the team prepares the test plans and strategy for various types of testing. It is at this stage 
+that the team will select which tools to use and estimate the effort required to carry out the test execution. 
+Following the planning phase, the testing team will start to create test cases and test data to ensure that they have all the required coverage 
+and test case review will then take place as part of this phase.
+Once the test case review as been approved, then the tester will move over to setting up the testing environment and ensure that the environment 
+has all the data they need and feaute that they will be testing is deployed to the correct environment. As part of this phase, testers can perfom 
+smoke tests and sanity checks to ensure that everything is ready for the test cases execution phase. 
+At the Test execution phase, the team will now execute the test cases, document the results and log defects 
+for any failed test casese. It is also at this that the testing will be retesting the previously logged defects to ensure that the fixes have been implemented 
+so that they can be able to close the old defects that were previously logged. 
+When all the test cases execution is completed, then the testing team will move to the Test Cycle Closure phase which involves 
+several activities such as test completion reporting, test results and defect logs. The team will also document the learning out of the project and make sure that 
+they receive a sign off by the client. 
+  
+ 
+Q3. Name 10 types of different software testing techniques and give an example of each one.
+
+Accceptance Testing - Testing conducted to ensure that the product is acceptable for delivery 
+E.G: Testing the functionality of placing an order and validating that all the communication emails are sent to the user
+
+End To End testing - Testing conducted to ensure that the application is functional from beginning to end 
+E.G: Registering a user profile to completion, logging out and logging back in with the newly created user 
+
+Black Box Testing - Testing conducted on where the code and paths are invisible. 
+E.G: Testing the look and feel of an application 
+
+Functional Testing - Testing conducted to check the application or system to ensure that its doing exactly what its supposed to be doing. 
+E.G: Fully engaging with an application by clicking and checking that everything works as expected. 
+
+Integration Testing: Testing conducted to ensure that the entire, integrated system meets a set of requirements. 
+E.G: Testing to make sure that all parts of the application are able to communicate as expected 
+
+Perfomance Testing: Testing conducted to examine the speed, stability, reliability, scalability and resources usage of a software applicationunder specified workload 
+E.G: Running permutation tests against an application 
+
+Sanity testing: Testing conducted after bugs are fixed and ensuring that there are no new bugs 
+E.G: Retesting a previously failed functionality on a different environment 
+
+Smoke Testing: Testing conducted to validate the stability of an application. 
+E.G: Selectively testing an application focusing on the critical paths
+
+Manual Testing: Hands on testing conducted to ensure human interaction 
+E.G: Testing that fully relies on human interaction 
+
+Automation Testing - Testing conducted through the use of scripts and specialized tools to automate the process of software testing 
+E.G: Testing that does not involve human interaction 
+
+
+
+Q4. Explain the 4 levels of testing an application
+
+The 4 levels of testing an application are namely Unit Testing, Integration Testing, System Testing and Acceptance Testing 
+Unit Testing is the first round of etsing to determine whether the application functions as designed. System components are tested 
+indivisually everytime a piece of code is changed. 
+Integration testing is the phase where all units are combined to test them as a group. This testing level is designed to find 
+interface defects between the modules and to determine how effeciently the units are running together 
+System Testing is the level in which the complete application is tested as a whole. The goal is to evaluate whether the system has compiled 
+with all of the outlined requirements and to see that it meeds the quality standards. 
+Acceptance Testing is conducted to determine whether the system is ready for use. During this phase, the user will test the system to find out 
+whether the application meets their business' needs. 
+
+
+Q7. What are some of the most important factors when writing test case?
+
+The most important factors of a test case are that a test case should be reusable. The test should be able to readable to other tester or stake holders 
+in a form that the summary of the test case should not be too long or too short,the description of the test case should clearly state how and what the test 
+case will used for and the test case should have test steps that are easy to follow when executing the test case. The case should also include Test data, 
+expected results and actual results. 
+
+
+Q8. How do you determine which piece of software requires how much testing and is ready for
+testing?
+
+When determining which piece of software to test, it is important to considering the priority in terms of how urgent and critical that piece of software is 
+and to also consider how much of a risk it is if the that piece of software breaks. It is also crucial to consider the number of testers that are available 
+to test so that a large piece of software is not tested by a small group or testers. When making sure that the software is ready, there should be an environment 
+that well prepared for the testing and test data is ready and available to test the piece of software. 
+
+
+Q9. When logging a defect. What are some of the factors that you would include in that defect
+ticket?
+
+When loggin a defect, a tester should ensure that the description of the defect is clear and speaks to the issue that is being logged, there should artifacts 
+that are added as part of the defect such as screen shots and/or video that illustrates how to replicate the defect and there should also be steps that can be followed to 
+replicate the defect. The environment where the defect was found should also be stated as part of logging the defect and the version of the software where the defect was found. 
+The expected and actual results should also be added as part of logging the defect including how serve the defect is. 
+
+
+Q10. The same bug that was supposed to be fixed has been found on a production site. How do you
+ensure that this bug never happens again?
+
+To mitigate the risk of finding the bug in production again, the tester should ensure that their test cases are updated and in line with the applications functionality and to also 
+ensure that there is great deal of negative testing that takes place as part of reverse engineering the application funtionality, that way they can discover any other bugs that they might have missed. 
+
+
+Section Two 
+
+Q1. If there are no business requirements and you were told to test this page. What would you test?
+
+When testing the application I would test to see that the 
+- Application is accessible
+- Scroll through the application to test that the application fully loads 
+- Test scrolling on the list of acountries and codes 
+- Test the menu bar that it is funtional
+- Test the menu options 
+- Test the Register and login from the menu bar 
+- Test the login feature 
+- Test the look and feel of the application 
+- Test application navigation(validate that all the hyperlinks are redirecting)
+- Test the chatbot 
+
+
+Q2. Find the link for the Bingo Liner logo and paste the URL here:
+
+https://m.bingoliner.com/
+ 
+ 
+Q3. The stakeholders want to ensure that the login button text has a white Hex value of #FFFFFF.
+How would you verify this requirement is met?
+
+Inspect the login button
+On the styles section, navigate to the .kAFcYh.button.custom-outlined section
+Click on the color block and the details will be displayed 
+
+Q4. How would you check that the request ‘GetPlayerCountryWithAllowedList’ is working?
+
+I tried looking through the network tab in order to find ‘GetPlayerCountryWithAllowedList’ 
+but I did not. I was hoping to look throught the request header to validate that the status code is 200 
+and there are no errors. 
